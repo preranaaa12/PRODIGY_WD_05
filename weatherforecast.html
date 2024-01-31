@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="weatherforecastcss.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1 class="heading">Weather App</h1>
+
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter city name" spellcheck="false">
+      <button><img src="C:\Users\hp\Downloads\search pic.png" ></button>
+    </div>
+
+    <div class="error">
+      <p>Invalid city name</p>
+    </div>
+
+    <div class="weather">
+      <img src="C:\Users\hp\Downloads\raining2.png" class="weather-icon">
+      <p class="temp">22°C</p>
+      <h2 class="city">New York</h2>
+      <div class="details">
+        <div class="col">
+          <img src="C:\Users\hp\Downloads\humidity.png" >
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="C:\Users\hp\Downloads\drizzling.png">
+          <div>
+            <p class="wind">15km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="weatherforecastjs.js"></script>
+
+</body>
+</html>
